@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Report — AI Act Article 50 Transparency Readiness Assessment</title>
+<meta name="description" content="Sample deliverable of the Article 50 Transparency Readiness Assessment by Grupo Traccion. Fictional company. Not legal advice.">
+<style>
+  :root{
+    --fondo:#ffffff; --texto:#1a1d21; --suave:#5b6470;
+    --linea:#e3e6ea; --acento:#0f5132; --caja:#f6f8fa; --aviso:#fff8e1;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --fondo:#14171a; --texto:#e8eaed; --suave:#9aa3ad;
+      --linea:#2a2f35; --acento:#7ee2b8; --caja:#1c2126; --aviso:#231f13;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--fondo); color:var(--texto);
+    font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main{max-width:50rem; margin:0 auto; padding:3rem 1.25rem 4rem}
+  header{border-bottom:1px solid var(--linea); padding-bottom:1.25rem; margin-bottom:2rem}
+  .marca{font-weight:600; letter-spacing:.02em; color:var(--acento)}
+  h1{font-size:1.7rem; line-height:1.25; margin:.4rem 0 .5rem}
+  h2{font-size:1.15rem; margin:2.5rem 0 .6rem; padding-top:.25rem; border-top:1px solid var(--linea)}
+  h3{font-size:1rem; margin:1.6rem 0 .5rem; color:var(--acento)}
+  .fecha{color:var(--suave); font-size:.9rem; margin:0}
+  p,li,td,th{color:var(--texto)}
+  ul,ol{padding-left:1.15rem}
+  li{margin:.35rem 0}
+  a{color:var(--acento)}
+  .caja{background:var(--caja); border:1px solid var(--linea); border-radius:8px; padding:1rem 1.15rem; margin:1.25rem 0}
+  .caja p{margin:.35rem 0}
+  .aviso{background:var(--aviso); border:1px solid var(--linea); border-left:3px solid var(--acento); border-radius:6px; padding:1rem 1.15rem; margin:1.5rem 0}
+  .aviso p{margin:.4rem 0}
+  .tabla{overflow-x:auto; margin:1.1rem 0}
+  table{border-collapse:collapse; width:100%; font-size:.94rem}
+  th,td{border:1px solid var(--linea); padding:.5rem .6rem; text-align:left; vertical-align:top}
+  th{background:var(--caja); font-weight:600}
+  .v-aplica{font-weight:700}
+  .v-revisar{font-weight:700}
+  blockquote{margin:1.1rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--linea); color:var(--suave)}
+  blockquote p{margin:.35rem 0}
+  .copy{background:var(--caja); border:1px dashed var(--linea); border-radius:6px; padding:.9rem 1.1rem; margin:1rem 0}
+  .etiqueta{font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; color:var(--suave); font-weight:600}
+  footer{border-top:1px solid var(--linea); margin-top:3rem; padding-top:1.25rem; color:var(--suave); font-size:.9rem}
+  code{background:var(--caja); padding:.1rem .35rem; border-radius:4px; font-size:.9em}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="marca">Grupo Tracci&oacute;n</div>
+  <h1>AI Act Article 50 &mdash; Transparency Readiness Assessment</h1>
+  <p class="fecha">Sample report &middot; fictional company</p>
+</header>
+
+<div class="aviso">
+  <p><strong>This is a demonstration document.</strong> &ldquo;Northbridge Analytics BV&rdquo;
+  does not exist. It is a composite scenario built to show the structure and depth of
+  the deliverable. Nothing here describes, assesses or accuses any real company.</p>
+  <p>This sample shows <strong>2 of 4</strong> systems fully worked. A purchased
+  assessment covers every system you declare.</p>
+</div>
+
+<p>
+  <strong>Client:</strong> Northbridge Analytics BV (fictional) &middot; Netherlands<br>
+  <strong>Assessment date:</strong> 2026-09-02<br>
+  <strong>Basis:</strong> Regulation (EU) 2024/1689; European Commission Guidelines on
+  Article 50 transparency obligations (final version, 20 July 2026); European Commission
+  FAQ on Article 50.
+</p>
+
+<div class="caja">
+  <p><strong>This is not legal advice and does not constitute a legal opinion or
+  certification of compliance.</strong></p>
+</div>
+
+<h2>A. Executive summary</h2>
+
+<p>Northbridge declared four AI systems. Two are likely in scope for Article 50, one is
+likely out of scope, and one cannot be resolved without clarifying who the provider is.</p>
+
+<p>The most significant gap is not a missing obligation &mdash; it is <strong>timing</strong>.
+The support assistant does disclose that it is an AI, but the disclosure sits in the chat
+widget&rsquo;s collapsed help panel, which a user can reach the assistant without opening.
+Article 50(5) requires the information at the latest at the time of the first interaction
+(CL-06).</p>
+
+<p>The second item worth attention is the marketing image generator. It has no
+machine-readable marking. Because the system was placed on the market before 2 August 2026,
+the marking obligation in Article 50(2) is subject to the transitional period ending
+<strong>2 December 2026</strong> (CL-07) &mdash; roughly three months from this assessment.</p>
+
+<p><strong>Do first:</strong></p>
+<ol>
+  <li>Move the AI disclosure in the support assistant to first contact (S-01).</li>
+  <li>Decide the machine-readable marking approach for generated images before
+      2 December 2026 (S-02).</li>
+  <li>Resolve the provider/deployer question on the embedded vendor chatbot (S-04)
+      &mdash; until that is settled, its obligations cannot be assigned.</li>
+</ol>
+
+<h2>B. AI system inventory</h2>
+
+<div class="tabla">
+<table>
+<thead><tr><th>ID</th><th>System</th><th>Preliminary role</th><th>Interaction / content</th><th>Exposed to</th><th>Markets</th></tr></thead>
+<tbody>
+<tr><td>S-01</td><td>Customer support assistant</td><td>Provider &mdash; built in-house, own brand</td><td>Direct interaction, text</td><td>Customers</td><td>EU, UK</td></tr>
+<tr><td>S-02</td><td>Marketing image generator</td><td>Provider &mdash; built in-house</td><td>Generates images</td><td>General public</td><td>EU</td></tr>
+<tr><td>S-03</td><td>Internal churn scoring model</td><td>Deployer</td><td>No interaction, no generated content</td><td>Employees only</td><td>Internal</td></tr>
+<tr><td>S-04</td><td>Embedded vendor chatbot on pricing page</td><td><strong>Undetermined</strong></td><td>Direct interaction, text</td><td>General public</td><td>EU</td></tr>
+</tbody>
+</table>
+</div>
+
+<blockquote>
+<p>Role matters more than it looks: Article 50(1) and 50(2) attach to <strong>providers</strong>,
+50(3) and 50(4) to <strong>deployers</strong> (CL-02 to CL-05). For S-04, Northbridge stated it
+is unsure whether the widget runs under its own brand. That single unknown decides which
+paragraph applies, so it is not assumed.</p>
+</blockquote>
+
+<h2>C. Article 50 applicability map</h2>
+
+<h3>S-01 &mdash; Customer support assistant</h3>
+<div class="tabla">
+<table>
+<thead><tr><th>Obligation</th><th>Verdict</th><th>Rationale</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>50(1) direct interaction</td><td class="v-aplica">LIKELY_APPLIES</td><td>Provider of a system designed to interact directly with natural persons. Users reach it from the public site; AI status is not obvious from context.</td><td>CL-02 &middot; SRC-02</td></tr>
+<tr><td>50(2) synthetic marking</td><td class="v-revisar">REVIEW_REQUIRED</td><td>Outputs are conversational text to a single user, not published synthetic content. Whether chat replies fall within the marking obligation depends on the Commission&rsquo;s reading of scope.</td><td>CL-03, CL-08 &middot; SRC-02, SRC-03</td></tr>
+<tr><td>50(3) emotion/biometric</td><td>LIKELY_NOT_APPLICABLE</td><td>No emotion recognition or biometric categorisation declared.</td><td>CL-04</td></tr>
+<tr><td>50(4) public-interest text</td><td>LIKELY_NOT_APPLICABLE</td><td>Replies are support responses to individual users, not text published to inform the public on matters of public interest.</td><td>CL-05</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>S-02 &mdash; Marketing image generator</h3>
+<div class="tabla">
+<table>
+<thead><tr><th>Obligation</th><th>Verdict</th><th>Rationale</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>50(2) synthetic marking</td><td class="v-aplica">LIKELY_APPLIES</td><td>Provider of a generative system producing synthetic images. No machine-readable marking currently applied. Transitional period to 2 Dec 2026 as the system predates 2 Aug 2026.</td><td>CL-03, CL-07 &middot; SRC-02</td></tr>
+<tr><td>50(4) deepfake disclosure</td><td class="v-revisar">REVIEW_REQUIRED</td><td>Northbridge states images are stylised and do not depict real people. &ldquo;Resembles real persons, places or events&rdquo; is a judgement call; the artistic/creative carve-out may also bear on it.</td><td>CL-05, CL-08</td></tr>
+<tr><td>50(1) direct interaction</td><td>LIKELY_NOT_APPLICABLE</td><td>The tool is used by the marketing team; end users do not interact with it.</td><td>CL-02</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>S-03 &mdash; Internal churn scoring model</h3>
+<p><strong>LIKELY_NOT_APPLICABLE across Article 50.</strong> No direct interaction with
+natural persons, no synthetic content generation, no emotion recognition or biometric
+categorisation. Exposure is internal only. Background operation is among the declared
+exemptions (CL-08).</p>
+
+<blockquote><p>Being out of scope is a result, not a gap. Recorded so the reasoning exists
+if anyone asks later.</p></blockquote>
+
+<h3>S-04 &mdash; Embedded vendor chatbot</h3>
+<p><em>(Worked in full in the purchased report.)</em></p>
+
+<h2>D. Transparency gap analysis &mdash; S-01</h2>
+<div class="tabla">
+<table>
+<thead><tr><th>Question</th><th>Current state</th><th>Assessment</th></tr></thead>
+<tbody>
+<tr><td>Is there a disclosure?</td><td>Yes &mdash; &ldquo;This assistant uses AI.&rdquo;</td><td>Wording is adequate and plain.</td></tr>
+<tr><td>Where does it appear?</td><td>Inside the collapsed &ldquo;Help &amp; policies&rdquo; panel of the widget.</td><td><strong>Gap.</strong> Reachable, but not on the path a user actually takes.</td></tr>
+<tr><td>When does the user see it?</td><td>Only if the panel is opened.</td><td><strong>Gap.</strong> 50(5) requires it at the latest at first interaction (CL-06).</td></tr>
+<tr><td>Is it clear and distinguishable?</td><td>Yes, once found.</td><td>Placement is the issue, not the wording.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The fix here is not writing new copy. It is moving copy that already exists to a place
+the user passes through.</p>
+
+<h2>E. Implementation checklist</h2>
+<div class="tabla">
+<table>
+<thead><tr><th>#</th><th>Action</th><th>System</th><th>Owner</th><th>Evidence to keep</th><th>Priority</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Surface AI disclosure at first contact, before the first user message</td><td>S-01</td><td>Product</td><td>Screenshot + release note with date</td><td>High</td></tr>
+<tr><td>2</td><td>Decide and implement machine-readable marking for generated images</td><td>S-02</td><td>Engineering</td><td>Technical note on method + sample output</td><td>High &mdash; 2 Dec 2026</td></tr>
+<tr><td>3</td><td>Confirm brand/provider relationship for the embedded widget</td><td>S-04</td><td>Legal / Procurement</td><td>Vendor contract clause</td><td>High</td></tr>
+<tr><td>4</td><td>Document the internal-only scope of the churn model</td><td>S-03</td><td>Data</td><td>One-page scope note</td><td>Low</td></tr>
+<tr><td>5</td><td>Review whether to sign the Code of Practice</td><td>All</td><td>Legal</td><td>Signature record if adopted</td><td>Medium</td></tr>
+</tbody>
+</table>
+</div>
+
+<blockquote><p>Item 5 is optional. The Code of Practice was confirmed adequate by the
+Commission on 8 July 2026 for Articles 50(2), (4) and (5) (CL-11). Signing offers
+predictability; it is not a substitute for the obligations.</p></blockquote>
+
+<h2>F. Suggested disclosure copy</h2>
+
+<p class="etiqueta">Suggested copy &mdash; requires organisational/legal review</p>
+
+<div class="copy">
+<p><strong>S-01, first contact:</strong></p>
+<p>&ldquo;You&rsquo;re chatting with an AI assistant. It can hand you to a person at any
+point &mdash; just ask.&rdquo;</p>
+<p><strong>S-02, alongside generated images:</strong></p>
+<p>&ldquo;Image generated with AI.&rdquo;</p>
+</div>
+
+<p>Draft wording only, offered as a starting point. It has not been reviewed against
+Northbridge&rsquo;s brand, tone, accessibility requirements or legal position.</p>
+
+<h2>G. Evidence / documentation checklist</h2>
+<ul>
+  <li>Dated screenshot of the disclosure as the user first sees it (S-01).</li>
+  <li>Release note recording when the placement changed (S-01).</li>
+  <li>Technical note describing the marking method and a sample marked output (S-02).</li>
+  <li>Vendor contract clause identifying whose brand the widget runs under (S-04).</li>
+  <li>Scope note stating the churn model is internal only (S-03).</li>
+</ul>
+
+<p>Purpose is narrow: showing <strong>what</strong> was implemented and <strong>when</strong>.
+Enforcement sits with national market surveillance authorities (CL-10).</p>
+
+<h2>H. Legal review flags</h2>
+
+<p><code>LEGAL_REVIEW_RECOMMENDED</code></p>
+<ol>
+  <li><strong>S-01 / 50(2) scope.</strong> Whether conversational replies to a single user
+      count as synthetic content requiring machine-readable marking. Turns on scope, not on
+      facts we can gather from you.</li>
+  <li><strong>S-02 / &ldquo;resembles real&rdquo;.</strong> Whether the stylised images engage
+      the deepfake disclosure duty, and whether the creative carve-out applies (CL-08).</li>
+  <li><strong>S-04 / role.</strong> Provider or deployer. A contractual question, not a
+      technical one &mdash; and it decides which paragraph applies.</li>
+</ol>
+
+<p>These are listed, not resolved. Resolving them is legal work, and this assessment does
+not do legal work.</p>
+
+<h2>The assessment itself</h2>
+<p>Fixed scope, USD 99, delivered within 3 working days of a completed intake.
+Vocabulary is limited to <code>LIKELY_APPLIES</code>, <code>LIKELY_NOT_APPLICABLE</code>
+and <code>REVIEW_REQUIRED</code>: we do not certify compliance and we do not state that
+anyone is breaking the law.</p>
+<p><a href="https://grupotraccion.gumroad.com/l/ai-act-art50-readiness">AI Act Article 50
+Transparency Readiness Assessment &rarr;</a></p>
+
+<footer>
+  <p>Prepared by Grupo Tracci&oacute;n &middot; Sample document &middot; Northbridge
+  Analytics BV is fictional &middot; Not legal advice.</p>
+  <p><a href="../grupo-traccion-politica-de-privacidad/">Privacy policy</a> &middot;
+  <a href="mailto:tracciongroup@gmail.com">tracciongroup@gmail.com</a></p>
+</footer>
+
+</main>
+</body>
+</html>
